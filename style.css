@@ -101,11 +101,32 @@ body{
     font-size:20px;
     float:left;
 }
-.director-img{
-    width:130px;
-    float:left;
-    margin: 10px 0px 0px 20px;
+
 }
 .prof{
      vertical-align:bottom;
+}
+@media only screen and (max-width: 900px) {
+    .navigation {
+        width: 100%;
+    }
+
+    .nav-li {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+.search{
+    display:block;
+}
+.tel-addres{
+    display:block;
+  }
+
+.addres{
+    height:100px;
+}
+
+.pharagraph{
+    margin:5px 4px;
+}
 }
